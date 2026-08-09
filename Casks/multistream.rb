@@ -19,7 +19,7 @@ cask "multistream" do
 
   postflight do
     system_command "/usr/bin/xattr",
-                   args: ["-cr", "#{appdir}/Multistream.app"],
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Multistream.app"],
                    sudo: false
   end
 

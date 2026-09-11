@@ -1,14 +1,14 @@
 cask "multistream" do
-  version "0.18.18"
+  version "0.18.19"
 
   on_arm do
     url "https://github.com/ilanzgx/multistream/releases/download/v#{version}/Multistream-macos-arm64.dmg"
-    sha256 "a4a88d09a19f04c2df8a0d5ed68a2f787192b212e98adbc8b792ab7f599fadc5"
+    sha256 "5c1bda81abd0f4be7b5b2f71121d7af8b90f016e58b5cdb0613ad826f94d79c6"
   end
 
   on_intel do
     url "https://github.com/ilanzgx/multistream/releases/download/v#{version}/Multistream-macos-x64.dmg"
-    sha256 "fcabc2e5b3a7d03ececc4f5f33efd127ef251887b345d9c714cb4384dbfe348e"
+    sha256 "77669bd16c8db7e3164b19a3337d51123fdda9f0e782c292b8a9876394ce3439"
   end
 
   name "Multistream"
